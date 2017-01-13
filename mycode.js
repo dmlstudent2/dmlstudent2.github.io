@@ -20,4 +20,4 @@ console.log("I\'d like to use an apostrope.");
 
 // concatenation
 var fullName = kittensName + " McDougal"; 
-console.log(fullName);
+console.log(fullNamee);
