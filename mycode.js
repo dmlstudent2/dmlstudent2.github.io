@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('Fri #4');
+document.write('Fri #5');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -19,5 +19,5 @@ var kittensName = "Fluffy";
 console.log("I\'d like to use an apostrope.");
 
 // concatenation
-var fullName = kittensName + "McDougal"; 
+var fullName = kittensName + " McDougal"; 
 console.log(fullName);
