@@ -27,4 +27,4 @@ document.write("Next!");
 
 // concatenation
 var kittensName = 'Admiral';
-kittensname += ' Snuggles';
+kittensName += ' Snuggles';
