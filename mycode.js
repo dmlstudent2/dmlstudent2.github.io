@@ -17,3 +17,7 @@ console.log(num1 % num2);
 // strings in variables
 var kittensName = "Fluffy";
 console.log("I\'d like to use an apostrope.");
+
+// concatenation
+var fullName = kittensName + "McDougal"; 
+console.log(fullName);
