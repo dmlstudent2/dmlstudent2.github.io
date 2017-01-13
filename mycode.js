@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('Fri #13');
+document.write('Fri #14');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -24,3 +24,7 @@ console.log(fullName);
 
 // test
 document.write("Next!");
+
+// concatenation
+var kittensName = 'Admiral';
+kittensname += ' Snuggles';
