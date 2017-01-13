@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('Fri #9');
+document.write('Fri #10');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
