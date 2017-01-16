@@ -61,3 +61,11 @@ var numberOfKittens = 5;
 var numberOfPuppies = 6;
 addOne(numberOfKittens);
 addOne(numberOfPuppies);
+
+// first and last name
+function fullName(first, last) {
+ document.write("<p>" + first + " " + last + "</p>");
+}
+var first = 'Lee';
+var last = 'Harris';
+fullName(first, last);
