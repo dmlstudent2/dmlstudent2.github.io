@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #26</p>');
+document.write('<p>Fri #27</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -94,3 +94,11 @@ function wearCoat(temperature) {
 var temperature = 73;
 wearCoat(temperature);
 
+function bottlesOfBeer(bottles) {
+ while (bottles > 0) {
+  document.write(bottles);
+  bottles -= 1;
+ }
+}
+var bottles = 10;
+function bottlesOfBeer(bottles);
