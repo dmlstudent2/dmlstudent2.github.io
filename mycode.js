@@ -84,7 +84,7 @@ function wearCoat(temperature) {
   document.write("<p>No coat!</p>");
  }
  else {
-  document.write("<p>Wear a coat.</p>")/;
+  document.write("<p>Wear a coat.</p>");
  }
 }
  
