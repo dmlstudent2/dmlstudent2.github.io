@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #16</p>');
+document.write('<p>Fri #17</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -39,3 +39,4 @@ document.write("<p>" + first + " " + last + "</p>");
 function turtleFact() {
  document.write("<p>A turtle's lower shell is called a plastron.</p>"); 
 }
+turtleFact()
