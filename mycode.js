@@ -101,4 +101,4 @@ function bottlesOfBeer(bottles) {
  }
 }
 var bottles = 10;
-function bottlesOfBeer(bottles);
+bottlesOfBeer(bottles);
