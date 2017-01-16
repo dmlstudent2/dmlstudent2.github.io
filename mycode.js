@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #19</p>');
+document.write('<p>Fri #20</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -66,6 +66,6 @@ addOne(numberOfPuppies);
 function fullName(first, last) {
  document.write("<p>" + first + " " + last + "</p>");
 }
-var first = 'Lee';
-var last = 'Harris';
-fullName(first, last);
+var firstName = 'Noah';
+var lastName = 'Norris';
+fullName(firstName, lastName);
