@@ -63,9 +63,9 @@ addOne(numberOfKittens);
 addOne(numberOfPuppies);
 
 // first and last name
-function fullName(first, last) {
+function completeName(first, last) {
  document.write("<p>" + first + " " + last + "</p>");
 }
 var firstName = 'Noah';
 var lastName = 'Norris';
-fullName(firstName, lastName);
+completeName(firstName, lastName);
