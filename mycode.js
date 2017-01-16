@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #20</p>');
+document.write('<p>Fri #21</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -69,3 +69,11 @@ function completeName(first, last) {
 var firstName = 'Noah';
 var lastName = 'Norris';
 completeName(firstName, lastName);
+
+// return a value
+function square(num) {
+ return num * num;
+}
+console.log(square(5));
+squareOfFive = square(5);
+console.log(squareOfFive);
