@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #28</p>');
+document.write('<p>Fri #29</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -102,3 +102,13 @@ function bottlesOfBeer(bottles) {
 }
 var bottles = 10;
 bottlesOfBeer(bottles);
+
+for (var i = 0; i < 10; i++) {
+ console.log(i);
+}
+console.log(i);
+
+for (let i = 0; i < 10; i++) {
+ console.log(i);
+}
+console.log(i);
