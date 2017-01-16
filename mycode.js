@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #24</p>');
+document.write('<p>Fri #25</p>');
 var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -80,12 +80,12 @@ console.log(squareOfFive);
 
 // temperature (lesson 2)
 function wearCoat(temperature) {
- if (temperature < 50 ) {
-  document.write("<p>Wear a coat.</p>");
+ if (temperature < 0 ) {
+  document.write("<p>Stay inside.</p>");
  } else if (temperature < 30 ) {
   document.write("<p>Wear a coat and a hat.</p>");
- } else if (temperature < 0 ) {
-  document.write("<p>Stay inside.</p>");
+ } else if (temperature < 50 ) {
+  document.write("<p>Wear a coat.</p>");
  } else {
   document.write("<p>Do anything you want.</p>");
  }
