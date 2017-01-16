@@ -52,3 +52,12 @@ function add(a, b) {
 }
 add(5, 7);
 add(37, 63);
+
+function addOne(num) {
+ var plusOne = num + 1;
+ document.write("<p>Now you have " + plusOne + ".</p>");
+}
+var numberOfKittens = 5;
+var numberOfPuppies = 6;
+addOne(numberOfKittens);
+addOne(numberOfPuppies);
