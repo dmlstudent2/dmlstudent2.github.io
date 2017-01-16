@@ -91,6 +91,6 @@ function wearCoat(temperature) {
  }
 }
  
-var temperature = -2;
+var temperature = 73;
 wearCoat(temperature);
 
