@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #33</p>');
+document.write('<p>Fri #34</p>');
 /* var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -144,3 +144,5 @@ loveName = 'Jonas';
 for ( i = 0; i < loveName.length; i++ ) {
  console.log(loveName[i]);
 }
+
+console.log("Jonas contains J? " + loveName.includes("J"));
