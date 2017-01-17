@@ -160,4 +160,4 @@ for ( i=0; i < loveName.length; i++ ) {
   }
  }
 }
-console.log("Love Calculator - Two Names score: " + score);
+console.lg("Love Calculator - Two Names score: " + score);
