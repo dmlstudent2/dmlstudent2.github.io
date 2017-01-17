@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #35</p>');
+document.write('<p>Fri #37</p>');
 /* var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -141,8 +141,11 @@ for ( i = 0; i < favoriteFoods.length; i++ ) {
 
 // strings as arrays
 loveName = 'Jonas';
+score = 0;
 for ( i = 0; i < loveName.length; i++ ) {
- console.log(loveName[i]);
+ if ( loveName[i] == "a" || loveName[i] == "e" || loveName[i] == "i"  || loveName[i] == "o"  || loveName[i] == "u" ) {
+  score += 5;
+ }
 }
+console.log("Score: " + score);
 
-console.log("Jonas contains j? " + loveName.toLowerCase().includes("j"));
