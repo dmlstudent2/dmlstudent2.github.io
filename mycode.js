@@ -138,3 +138,9 @@ console.log("length: " + favoriteFoods.length);
 for ( i = 0; i < favoriteFoods.length; i++ ) {
  console.log(favoriteFoods[i]);
 }
+
+// strings as arrays
+loveName = 'Jonas';
+for ( i = 0; i < loveName.length; i++ ) {
+ console.log(loveName[i]);
+}
