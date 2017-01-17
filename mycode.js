@@ -117,6 +117,7 @@ console.log(i);
 
 for (i=1; i<13; i++) {
  var product;
- product = i * 9;
- console.log("9 x " + i + " = " + product);
+ for (j=1; j<13; j++) {
+  product = i * j;
+  console.log(i + "x " + j + " = " + product);
 }
