@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #31</p>');
+document.write('<p>Fri #32</p>');
 /* var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -103,6 +103,7 @@ function bottlesOfBeer(bottles) {
 var bottles = 10;
 bottlesOfBeer(bottles);
 
+// exploring let
 for (var i = 0; i < 10; i++) {
  console.log(i);
 }
@@ -115,6 +116,8 @@ for (let i = 0; i <10; i++) {
 console.log(i); 
 */
 
+/*
+// nested for loops
 for (i=1; i<13; i++) {
  var product;
  for (j=1; j<13; j++) {
@@ -122,3 +125,9 @@ for (i=1; i<13; i++) {
   console.log(i + "x " + j + " = " + product);
  }
 }
+*/
+
+var favoriteFoods = ['chocolate', 'ice cream', 'bagels'];
+console.log(favoriteFoods[0]);
+favoriteFoods.push('chicken soup');
+console.log("length: " + favoriteFoods.length);
