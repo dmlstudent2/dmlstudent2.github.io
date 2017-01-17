@@ -108,7 +108,8 @@ for (var i = 0; i < 10; i++) {
 }
 console.log("var i: " + i);
 
-for (let i = 0; i < 10; i++) {
- console.log(i);
+for (let i = 0; i <10; i++) {
+    console.log(i);
 }
-console.log("let i: " + i);
+
+console.log(i); /*What is the value of i??*/
