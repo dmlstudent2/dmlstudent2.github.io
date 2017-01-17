@@ -1,6 +1,6 @@
 console.log('This message STILL DOES appears in the console.');
 document.write('<p>Fri #30</p>');
-var numberOfKittens = 5;
+/* var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
 
@@ -112,4 +112,11 @@ for (let i = 0; i <10; i++) {
     console.log(i);
 }
 
-console.log(i); /*What is the value of i??*/
+console.log(i); 
+*/
+
+for (i=1; i<13; i++) {
+ var product;
+ product = i * 9;
+ console.log("9 x " + i + " = " + product);
+}
