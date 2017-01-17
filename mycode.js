@@ -1,5 +1,5 @@
 console.log('This message STILL DOES appears in the console.');
-document.write('<p>Fri #32</p>');
+document.write('<p>Fri #33</p>');
 /* var numberOfKittens = 5;
 var numberOfPuppies = 6;
 console.log(numberOfKittens + numberOfPuppies);
@@ -127,7 +127,14 @@ for (i=1; i<13; i++) {
 }
 */
 
+
+// arrays
 var favoriteFoods = ['chocolate', 'ice cream', 'bagels'];
 console.log(favoriteFoods[0]);
 favoriteFoods.push('chicken soup');
 console.log("length: " + favoriteFoods.length);
+
+// looping through arrays
+for ( i = 0; i < favoriteFoods.length; i++ ) {
+ console.log(favoriteFoods[i]);
+}
