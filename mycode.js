@@ -140,7 +140,7 @@ for ( i = 0; i < favoriteFoods.length; i++ ) {
 }
 
 // strings as arrays
-loveName = 'Jonas';
+loveName = 'Maryanne';
 score = 0;
 for ( i = 0; i < loveName.length; i++ ) {
  if ( loveName[i] == "a" || loveName[i] == "e" || loveName[i] == "i"  || loveName[i] == "o"  || loveName[i] == "u" ) {
