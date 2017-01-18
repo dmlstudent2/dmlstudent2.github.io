@@ -162,4 +162,4 @@ for ( i=0; i < loveName.length; i++ ) {
 }
 console.log("Love Calculator - Two Names score: " + score);
 
-console.log("So much for trying.");
+console.log("You do your best, and then you move on.");
