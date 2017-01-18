@@ -165,3 +165,9 @@ console.log("Love Calculator - Two Names score: " + score);
 console.log("You do your best, and then you move on.");
 
 console.log("If that's not enough, then it's not enough.");
+
+function notEnough() {
+ console.log("Say it again. If that's not enough, so be it.")
+}
+
+notEnough();
