@@ -177,4 +177,6 @@ var myCats = [
  {name: 'Bo', age: 2}
 ];
 
-console.log("this is new: " + myCats[0].name);
+for (i = 0; i < myCats.length; i++) {
+ console.log("name: " + myCats[i].name + "  - age: " + myCats[i].age);
+}
