@@ -125,7 +125,6 @@ for (i=1; i<13; i++) {
   console.log(i + "x " + j + " = " + product);
  }
 }
-*/
 
 
 // arrays
@@ -171,3 +170,11 @@ function notEnough() {
 }
 
 notEnough();
+*/
+
+var myCats = [
+ {name: 'Tabby', age: 18},
+ {name: 'Bo', age: 2}
+];
+
+console.log(myCats[0].name);
