@@ -148,7 +148,7 @@ for ( i = 0; i < loveName.length; i++ ) {
  }
 }
 console.log("Score: " + score);
-*/
+
 
 // love calculator #2
 loveName2 = 'Yuika';
@@ -177,4 +177,4 @@ var myCats = [
  {name: 'Bo', age: 2}
 ];
 
-console.log(myCats[0].name);
+console.log("this is new: " + myCats[0].name);
